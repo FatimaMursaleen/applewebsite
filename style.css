@@ -1,0 +1,298 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.first-nev {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.first-nev > li {
+  color: white;
+}
+.first-div {
+  background-color: rgba(31, 24, 24, 0.473);
+}
+.second-div {
+  background-color: rgb(34, 34, 143);
+}
+
+.first-para {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.first-para > a {
+  color: white;
+}
+.third-div {
+  background-color: antiquewhite;
+}
+.second-para {
+  text-align: center;
+  padding: 10px;
+}
+.first-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.first-img-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url(images/img1.jpg);
+}
+.second-img-div {
+  background-image: url(images/img2.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.third-img-div {
+  background-image: url(images/img4.jpg);
+  width: 100%;
+  height: 130%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.first-heading {
+  font-size: 50px;
+  color: rgb(15, 13, 13);
+  padding: 60px 0 10px 0;
+}
+.first-img-div h2,
+.second-img-div h2 {
+  font-size: 30px;
+  color: rgb(15, 13, 13);
+  padding-bottom: 25px;
+}
+.second-img-div h2 {
+  color: white;
+}
+.first-img-div p,
+.second-img-div p {
+  font-size: 18px;
+  color: rgb(77, 73, 73);
+}
+.third-img-div p {
+  font-size: 28px;
+  color: black;
+}
+.first-img-div ul,
+.second-img-div ul,
+.third-img-div ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-anchor {
+  padding: 0 20px;
+  font-size: 20px;
+}
+.first-img-div ul li,
+.third-img-div ul li,
+.second-img-div ul li {
+  padding: 15px 0;
+}
+.second-heading {
+  font-size: 50px;
+  color: white;
+  padding: 60px 0 10px 0;
+}
+.third-para {
+  font-size: 10px !important;
+}
+.six-sections {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -70px;
+}
+.main-first-div {
+  width: 49.5%;
+  height: 100vh;
+  position: relative;
+}
+.first-portion {
+  background-image: url(images/img5.jpg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.second-portion {
+  background-image: url(images/img6.jpg);
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: black;
+  margin-top: 40px;
+}
+.third-portion {
+  background-image: url(images/img7.jpg);
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: black;
+  margin-top: 40px;
+}
+.forth-portion {
+  background-image: url(images/img8.jpg);
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 40px;
+}
+.fifth-portion {
+  background-image: url(images/img9.jpg);
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 40px;
+}
+.sixth-portion {
+  background-image: url(images/img10.jpg);
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 40px;
+}
+.six-section-para {
+  padding-top: 70px;
+  font-size: 40px;
+  color: black;
+}
+.first-portion p {
+  font-size: 21px;
+  padding-top: 5px;
+  color: rgb(48, 46, 46);
+}
+.first-portion ul,
+.second-portion ul,
+.third-portion ul,
+.forth-portion ul,
+.fifth-portion ul,
+.sixth-portion ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+}
+.first-portion li a,
+.second-portion li a,
+.third-portion li a,
+.forth-portion li a,
+.fifth-portion li a,
+.sixth-portion li a {
+  margin: 5px;
+  padding: 5px;
+  color: blue;
+}
+.second-portion h1 {
+  padding-top: 10px;
+  font-size: 25px;
+  color: white;
+}
+.second-portion-para {
+  padding-top: 10px;
+  font-size: 13px;
+  color: red;
+}
+.second-portion-second-para {
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+.third-portion h1 {
+  padding-top: 50px;
+  font-size: 40px;
+  color: white;
+}
+.third-portion p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+.forth-portion h1 {
+  margin-top: -10px;
+  font-size: 40px;
+  color: black;
+}
+.forth-portion-para {
+  padding-top: 5px;
+  font-size: 20px;
+  color: black;
+}
+.forth-portion-second-para {
+  padding-top: 5px;
+  font-size: 20px;
+  color: black;
+}
+.fifth-portion h1 {
+  margin-top: -20px;
+  font-size: 40px;
+  color: black;
+}
+.fifth-portion-first-para {
+  padding-top: 5px;
+  font-size: 20px;
+  color: black;
+}
+.fifth-portion-second-para {
+  padding-top: 5px;
+  font-size: 20px;
+  color: black;
+}
+.sixth-portion h1 {
+  color: white;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: justify;
+  background-color: lightgray;
+  padding: 20px 0;
+}
+
+footer p {
+  line-height: 1.5rem;
+  width: 90%;
+  font-size: 13px;
+}
